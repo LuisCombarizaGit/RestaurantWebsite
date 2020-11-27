@@ -101,7 +101,7 @@ a {
 .nav__icon::after {
   width: 2.5rem;
   height: 2px;
-  background-color: #333;
+  background-color: rgb(10, 94, 220);
   display: inline-block;
 }
 
@@ -132,7 +132,7 @@ a {
 
 .open .nav__icon::after {
   top: 0;
-  transform: rotate(135deg);
+  transform: rotate(-135deg);
 }
 
 .nav_list {
@@ -152,7 +152,7 @@ a {
   transition: transform 0.5s;
 }
 
-.open .nav-list {
+.open .nav_list {
   transform: translateX(0);
 }
 
