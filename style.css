@@ -1,4 +1,4 @@
-/* Global Styles - select everything on page*/
+/* Global Styles */
 
 *,
 *::before,
@@ -9,13 +9,13 @@
 }
 
 html {
-  font-size: 62.5%; /* One rem is 10px*/
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
@@ -37,7 +37,6 @@ a {
 }
 
 /* Header */
-
 .header {
   width: 100%;
   position: fixed;
@@ -71,4 +70,53 @@ a {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.5s;
+}
+
+.open .nav::before {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.nav__button {
+  background-color: #fff;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav__icon {
+  position: relative;
+  margin-top: 2.5rem;
+}
+
+.nav__icon,
+.nav__icon::before,
+.nav__icon::after {
+  width: 2.5rem;
+  height: 2px;
+  background-color: #333;
+  display: inline-block;
+}
+
+.nav__icon::before,
+.nav__icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.nav__icon::before {
+  top: -0.7rem;
+}
+
+.nav__icon::after {
+  top: 0.7rem;
 }
