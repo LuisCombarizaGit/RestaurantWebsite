@@ -319,3 +319,12 @@ a {
   line-height: 3rem;
   margin-bottom: 5rem;
 }
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+  z-index: 1;
+  margin-bottom: 4rem;
+}
