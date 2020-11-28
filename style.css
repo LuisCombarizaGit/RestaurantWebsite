@@ -328,3 +328,26 @@ a {
   z-index: 1;
   margin-bottom: 4rem;
 }
+
+.btn:hover {
+  color: #c59d5f;
+}
+
+.third-grid {
+  margin-top: 10rem;
+}
+
+/* Team */
+.team {
+  width: 100%;
+  margin-top: 10rem;
+  background-color: #f9f9f9;
+  padding-bottom: 10rem;
+}
+
+.four-columns-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5rem;
+  margin-top: 10rem;
+}
