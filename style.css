@@ -308,3 +308,14 @@ a {
   justify-content: center;
   margin: 0 auto;
 }
+
+.welcome {
+  font-weight: 100;
+}
+
+.about-paragraph {
+  font-size: 1.4rem;
+  color: #afafaf;
+  line-height: 3rem;
+  margin-bottom: 5rem;
+}
