@@ -283,3 +283,22 @@ a {
   font-size: 1.6rem;
   color: #afafaf;
 }
+
+/* About Us */
+.two-columns-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tart,
+.fruits {
+  width: 70%;
+}
+
+.top-tart {
+  text-align: center;
+}
+
+.top-fruits {
+  text-align: center;
+}
