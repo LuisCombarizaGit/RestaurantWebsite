@@ -295,10 +295,16 @@ a {
   width: 70%;
 }
 
-.top-tart {
+.top-tart,
+.top-fruits {
   text-align: center;
 }
 
-.top-fruits {
-  text-align: center;
+.about-us,
+.read-more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
